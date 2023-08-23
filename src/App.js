@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css';
 
-const picture = <img src="../kwasi-nobg.png" alt="personalPic" />
+const picture = <img src="../kwasi-nobg.png" alt="personalPic" />;
 
-const summary = <p>Budding frontend developer with a strong background of 10+ years experience building, managing and maintaining visually appealing, functional and user friendly websites, using Joomla and WordPress. Proficient in HTML, CSS and JavaScript. Also have good working knowledge in AWS cloud technologies, Git and GitHub.</p>
+const summary = <p>Budding frontend developer with a strong background of 10+ years experience building, managing and maintaining visually appealing, functional and user friendly websites, using Joomla and WordPress. Proficient in HTML, CSS and JavaScript. Also have good working knowledge in AWS cloud technologies, Git and GitHub.</p>;
 
 const skills = <ul className="skills">
   <li className="li">WordPress</li>
@@ -14,7 +14,57 @@ const skills = <ul className="skills">
   <li className="li">Git</li>
   <li className="li">GitHub</li>
   <li className="li">AWS</li>
-</ul>
+</ul>;
+
+const education = (
+  <>
+  <div className="edu">
+    <div className="date">
+      <p>04/2023 - 12/2023</p>
+    </div>
+    <div className="school">
+      <h4>Frontend Development (JavaScript/React)</h4>
+      <p>Azubi Africa - Accra</p>
+    </div>
+  </div>
+  <div className="edu">
+    <div className="date">
+      <p>01/2023 - 04/2023</p>
+    </div>
+    <div className="school">
+      <h4>AWS re/Start Program Learner (AWS CCP Certification)</h4>
+      <p>Azubi Africa - Accra</p>
+    </div>
+  </div>
+  <div className="edu">
+    <div className="date">
+      <p>01/2021 - 12/2023</p>
+    </div>
+    <div className="school">
+      <h4>Bachelor of Commerce</h4>
+      <p>Amity University Online - India</p>
+    </div>
+  </div>
+  <div className="edu">
+    <div className="date">
+      <p>11/2007 - 08/2008</p>
+    </div>
+    <div className="school">
+      <h4>Networking Essentials Plus (N+) / Microsoft Certified Systems Engineer</h4>
+      <p>IPMC Training Center - Accra</p>
+    </div>
+  </div>
+  <div className="edu">
+    <div className="date">
+      <p>02/2001 - 11/2004</p>
+    </div>
+    <div className="school">
+      <h4>HND Mechanical Engineering</h4>
+      <p>Kumasi Technical University</p>
+    </div>
+  </div>
+    </>
+);
 
 function App() {
   return (
@@ -37,6 +87,10 @@ function App() {
         <h3>Skills: {skills}</h3>
       </div>
       <div><hr /></div>
+      <div className="eduTrain">
+        <h3>Education:</h3>
+        <span>{education}</span>
+      </div>
     </div>
   );
 }

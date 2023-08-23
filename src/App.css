@@ -84,9 +84,10 @@ hr {
 .skills {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   font-weight: 400;
 }
 
@@ -97,7 +98,20 @@ hr {
 }
 
 .middle {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding-bottom: 2rem;
+}
+
+.eduTrain {
+  width: 95%;
+  height: fit-content;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.edu {
+  display: flex;
+  gap: 6rem;
+  padding-left: 7rem;
 }
