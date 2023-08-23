@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,69 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.myApp {
+  width: 95%;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myApp h1 {
+  margin: 2rem auto;
+}
+
+img {
+  width: 12rem;
+  height: 11rem;
+  border-radius: 50%;
+  box-shadow: 2px 3px 13px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 3px 13px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 13px -1px rgba(0,0,0,0.75);
+}
+
+.top {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bio {
+  width: 70%;
+}
+
+.divider {
+  width: 1px;
+  height: 12rem;
+  background-color: #787f83;
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  margin-bottom: 2rem;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.li {
+  border: 0.031rem solid #787f83;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+
+.middle {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
