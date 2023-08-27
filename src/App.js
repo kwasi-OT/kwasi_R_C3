@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import Button from "./components/Button";
 
 const picture = <img src="../kwasi-nobg.png" alt="personalPic" />;
 
@@ -69,7 +70,13 @@ const education = (
 function App() {
   return (
     <div className="myApp">
-      <h1>My Portfolio</h1>
+      <div className="header">
+        <div><h1>My Portfolio</h1></div>
+        <div className="topButtons">
+          <Button label = "Login"/>
+          <Button label = "Signin"/>
+        </div>
+      </div>
       <div><hr /></div>
       <div className="top">
         <div>
